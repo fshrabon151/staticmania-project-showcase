@@ -27,7 +27,7 @@ const Card: React.FC<Props> = ({
         src={src}
         alt={heading}
         className="object-cover w-full"
-        height={256}
+        height={hasImageIcon ? 256 : 320}
         width={416}
       />
       {hasImageIcon && (

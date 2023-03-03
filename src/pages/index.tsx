@@ -1,4 +1,5 @@
 import PodcastSection from "@components/molecules/PodcastSection";
+import ArticlesNewsSection from "@components/organisms/ArticlesNewsSection";
 import EpisodeSection from "@components/organisms/EpisodeSection";
 import HeroSection from "@components/organisms/HeroSection";
 import Layout from "@Layouts/Layout";
@@ -9,6 +10,7 @@ const Home = () => (
       <HeroSection />
       <PodcastSection />
       <EpisodeSection />
+      <ArticlesNewsSection />
     </div>
   </Layout>
 );
