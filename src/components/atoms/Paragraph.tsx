@@ -5,8 +5,8 @@ type Props = {
   className?: string;
 };
 
-const P: React.FC<Props> = ({ children, className = "" }) => (
+const Paragraph: React.FC<Props> = ({ children, className = "" }) => (
   <p className={classNames("font-normal", className)}>{children}</p>
 );
 
-export default P;
+export default Paragraph;

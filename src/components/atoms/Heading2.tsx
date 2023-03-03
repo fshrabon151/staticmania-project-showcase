@@ -5,10 +5,10 @@ type Props = {
   className?: string;
 };
 
-const H2: React.FC<Props> = ({ children, className = "" }) => (
+const Heading2: React.FC<Props> = ({ children, className = "" }) => (
   <h2 className={classNames("text-2xl md:text-[32px] font-bold", className)}>
     {children}
   </h2>
 );
 
-export default H2;
+export default Heading2;

@@ -5,8 +5,8 @@ type Props = {
   className?: string;
 };
 
-const H6: React.FC<Props> = ({ children, className = "" }) => (
+const Heading6: React.FC<Props> = ({ children, className = "" }) => (
   <h6 className={classNames("md:text-xs font-bold", className)}>{children}</h6>
 );
 
-export default H6;
+export default Heading6;

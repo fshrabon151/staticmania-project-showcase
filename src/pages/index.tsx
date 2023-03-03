@@ -1,35 +1,35 @@
 import Button from "@components/atoms/Button";
 import ButtonOutline from "@components/atoms/ButtonOutline";
-import H1 from "@components/atoms/H1";
-import H2 from "@components/atoms/H2";
-import H3 from "@components/atoms/H3";
-import H4 from "@components/atoms/H4";
-import H5 from "@components/atoms/H5";
-import H6 from "@components/atoms/H6";
-import P from "@components/atoms/P";
+import Heading1 from "@components/atoms/Heading1";
+import Heading2 from "@components/atoms/Heading2";
+import Heading3 from "@components/atoms/Heading3";
+import Heading4 from "@components/atoms/Heading4";
+import Heading5 from "@components/atoms/Heading5";
+import Heading6 from "@components/atoms/Heading6";
+import Paragraph from "@components/atoms/Paragraph";
 
 export default function Home() {
   return (
     <div className="space-y-9 p-10">
       <div className="flex space-x-9">
         <div className="space-y-6">
-          <H1>Heading 1</H1>
-          <H2>Heading 2</H2>
-          <H3>Heading 3</H3>
-          <H4>Heading 4</H4>
-          <H5>Heading 5</H5>
-          <H6>Heading 6</H6>
+          <Heading1>Heading 1</Heading1>
+          <Heading2>Heading 2</Heading2>
+          <Heading3>Heading 3</Heading3>
+          <Heading4>Heading 4</Heading4>
+          <Heading5>Heading 5</Heading5>
+          <Heading6>Heading 6</Heading6>
         </div>
         <div>
-          <P>Body Text</P>
-          <P className="max-w-sm">
+          <Paragraph>Body Text</Paragraph>
+          <Paragraph className="max-w-sm">
             Apparently we had reached a great height in the atmosphere, for the
             sky was a dead black, and the stars had ceased to twinkle.{" "}
-          </P>
+          </Paragraph>
         </div>
       </div>
       <div className="space-y-6">
-        <H4>Components</H4>
+        <Heading4>Components</Heading4>
         <div className="space-x-6">
           <Button>Button</Button>
           <ButtonOutline>Secondary</ButtonOutline>

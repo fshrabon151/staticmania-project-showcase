@@ -14,7 +14,7 @@ module.exports = {
         staticAquamarine: "#ABFFE0",
         staticBlue: "#503AE7",
         staticPurple: "#832BC1",
-        staticBlack: "#000",
+        staticBlack: "#14142B",
         staticGray: "#AFB0B9",
         staticOffWhite: "#F4F2FF",
       },
