@@ -9,6 +9,17 @@ module.exports = {
       fontFamily: {
         inter: ["'Inter'"],
       },
+      container: {
+        // you can configure the container to be centered
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
       colors: {
         staticGreen: "#1AD993",
         staticAquamarine: "#ABFFE0",
