@@ -14,7 +14,6 @@ const SecondaryButton: React.FC<Props> = ({
   hasBtnIcon = false,
 }) => {
   const { isHovering, hoverRef } = useHover();
-
   return (
     <button
       ref={hoverRef}

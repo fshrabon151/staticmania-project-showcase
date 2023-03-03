@@ -11,7 +11,7 @@ const SponsorItem = () => (
     <div className="container bg-staticBlue py-20 space-y-14">
       <Heading2 className="text-center text-white">Our Sponsor</Heading2>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <Image
           src="/assets/sponser-logo-1.png"
           className="mx-auto opacity-80"

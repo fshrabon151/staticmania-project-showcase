@@ -5,7 +5,7 @@ import HeroSection from "@components/organisms/HeroSection";
 import Layout from "@Layouts/Layout";
 
 const Home = () => (
-  <Layout>
+  <Layout title="Home">
     <div className="space-y-10 py-11">
       <HeroSection />
       <PodcastSection />
